@@ -36,7 +36,7 @@ The model then predicts:
 ### 1️ Clone the Repository  
 ```bash
 git clone https://github.com/your-username/delivery-prediction-model.git
-cd delivery-prediction-model
+cd Predicting-Delivery-Status-On-time-or-Late
 ```
 ### 2 Install Dependencies
 ```
