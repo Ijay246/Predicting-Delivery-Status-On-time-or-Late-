@@ -20,7 +20,7 @@ st.write("Provide the details below to predict if the delivery will be **On-time
 f1 = st.number_input("Agent Rating", min_value=1, max_value=6, value=1, step=1)
 
 # Feature 2: Pick-up Hour
-f2 = st.number_input("Pick-Up Hour (Hour)", min_value=0, max_value=13, value=0, step=1)
+f2 = st.number_input("Pick-Up Hour (Hours)", min_value=0, max_value=13, value=0, step=1)
 
 # Feature 3: Traffic (categorical)
 traffic_mapping = {'High ': 1, 'Jam ': 2, 'Low ': 3, 'Medium ': 4}
@@ -56,5 +56,6 @@ if st.button("Predict"):
     else:
         st.error(f" Prediction: {result}")
     
+
 
 
