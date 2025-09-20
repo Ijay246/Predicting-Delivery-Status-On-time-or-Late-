@@ -6,7 +6,7 @@ The app uses a **Logistic Regression model** trained and saved as `log_model.pkl
 
 ---
 
-## ✨ Features  
+## Features  
 
 -  **Agent Rating** – Rating of the delivery agent (1–6).  
 -  **Pick-Up Hour** – Time of the day when the parcel is picked up (0–13).  
@@ -21,7 +21,7 @@ The model then predicts:
 
 ---
 
-## 🛠 Tech Stack  
+## Tech Stack  
 
 - [Python](https://www.python.org/)  
 - [Streamlit](https://streamlit.io/)  
@@ -46,9 +46,9 @@ pip install -r requirements.txt
 ```
 streamlit run app.py
 ```
-### Project Structure
-delivery-prediction-model/
-│── app.py               # Streamlit app script
-│── log_model.pkl        # Trained Logistic Regression model
-│── requirements.txt     # Required dependencies
+### Project Structure  
+delivery-prediction-model/  
+│── app.py               # Streamlit app script  
+│── log_model.pkl        # Trained Logistic Regression model  
+│── requirements.txt     # Required dependencies  
 │── README.md   
